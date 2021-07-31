@@ -305,4 +305,6 @@ body {
   display: block;
 }
 
-
+.icons {
+  display: none;
+}

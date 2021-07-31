@@ -56,9 +56,33 @@
   }
 
   .colums {
+    padding: 10px 0px;
     width: 100%;
     border-bottom: 1px solid #000;
     border-top: 1px solid #000;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 21px;
+
+  }
+
+  .icon-facebook:before {
+    content: "\ea90";
+    font-family: 'icomoon' !important;
+    font-size: 25px;
+    color: #000;
+    padding-right: 5px;
+  }
+  .icon-instagram:before {
+    content: "\ea92";
+    font-family: 'icomoon' !important;
+    font-size: 25px;
+    color: #000;
+    padding-left: 5px;
   }
 }
 
